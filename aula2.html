@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="style/css_aula2.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Portes &#x2728;</title>
+</head>
+
+<script type="text/JavaScript">
+    function hello(){
+        alert('Seja bem vindo ao meu portfólio! 😀');
+    }
+</script>
+
+<body onload="hello()">
+
+    <div class="geral" id="geral">
+
+        <!-- essa é a barra lateral -->
+        <div class="sidebar">
+
+            <!-- essa div contempla a minha foto e o menu de navegação -->
+            <div class="sidebar-p">
+                <!-- minha foto -->
+                <div class="img-sidebar">
+                    <img src="/img/matheus.jpg" alt="">
+                </div>
+
+                <!-- menu navs -->
+                <div class="menu">
+                    <a class="selected" href="#geral">SOBRE</a>
+                    <a href="#conteudo2">SKILLS</a>
+                    <a href="#form">QUE TAL UM CAFÉ?</a>
+                </div>
+            </div>
+        </div>
+        <!-- essa é a div contendo o conteúdo -->
+        <div class="conteudo" id="conteudo">
+            <section class="descricao">
+                <h2>MATHEUS <span>PORTES</span></h2>
+                <h4 style="font-family: 'Prompt', sans-serif;">student at unicuritiba<br><span>catalog assistant at
+                        olist</span></h4>
+                <h4>CURITIBA, PARANÁ - BRASIL • +55 41 9 8883-7682 • <span>matheusportes12@gmail.com</span></h4><br>
+                <p>Olá! Estou muito feliz que esteja aqui.<br>
+                    Eu sou acadêmico de Análise e Desenvolvimento de Sistemas e
+                    <br>desde sempre muito envolvido e interessado nas áreas de Tech, Design & Business.
+                </p>
+                <div class="icones">
+                    <br><a href="https://www.facebook.com/mportesa" class="fa fa-facebook" target=”_blank”><span
+                            class="tooltiptext">facebook</span></a>
+                    <a href="https://www.instagram.com/mth.portes" class="fa fa-instagram" target=”_blank”><span
+                            class="tooltiptext">instagram</span></a>
+                    <a href="https://www.linkedin.com/in/matheusportes/" class="fa fa-linkedin" target=”_blank”><span
+                            class="tooltiptext">linkedin</span></a>
+                    <a href="mailto:matheusportes12@gmail.com" class="fa fa-envelope" target=”_blank”><span
+                            class="tooltiptext">e-mail</span></a>
+                </div>
+            </section>
+        </div>
+        <div id="conteudo2">
+            <h4>MY <span>SKILLS</span></h4><br>
+            <div class="skill1">
+                <div class="imgs1">
+                    <img src="./img/html.png" alt="">
+                </div>
+            </div>
+            <div class="skill2">
+                <div class="imgs2">
+                    <img src="./img/css.png" alt="">
+                </div>
+            </div>
+            <div class="skill3">
+                <div class="imgs3">
+                    <img src="./img/java.png" alt="">
+                </div>
+            </div>
+            <div class="skill4">
+                <div class="imgs4">
+                    <img src="./img/sql.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="form">
+            <h2>ME CHAMA <span>PRA UM CAFÉ &#x2615;</span></h2>
+            <form action="javascript:void(0);">
+                <label for="fname">Seu nome</label><br>
+                <input type="text" id="finput" name="fname"><br>
+                <label for=" lname">Seu e-mail</label><br>
+                <input type="text" id="finput" name="lname"><br>
+                <label for="local">Qual o local do café?</label><br>
+                <textarea name="message" rows="5" cols="6" id="finput"></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <footer>
+            <h2>Desenvolvido por <span>Matheus Portes</span></h2>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
